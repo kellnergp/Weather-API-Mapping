@@ -1,4 +1,31 @@
-# python-api-challenge
+# Weather API Mapping
+
+## Overview
+
+This project uses the OpenWeather API to source weather data for hundreds of cities across the globe. 
+
+The weather data is plotted to observe global weather trends and examine any possible correlations.
+
+The data is then used to filter for locations with pleasant vacation weather and assemble a Google Maps figure with information concering potential hotel accomodations in select locations.
+
+![hotelMap](/VacationPy/map.png)
+
+## Tools Used
+
+Python
+
+OpenWeather API
+
+Pandas
+
+PyPlot
+
+Gmaps
+
+# Code Walkthrough
+
+<details>
+  <summary>Click to expand!</summary>
 
 ## WeatherPy
 
@@ -42,6 +69,8 @@ Describe what each plot is showing.
 Use proper plot labels, titles, and axes labels for each plot with the date of analysis included.
 
 Save a png image of each plot to an output data folder.
+  
+  ![LatTempGraph](/WeatherPy/output_data/Fig1.png)
 
 ## Linear Regression
 
@@ -54,6 +83,8 @@ Use the scipy.stats.linregress function to take a linear regression of the data 
 Print the r-value of each regression with its corresponding plot to illustrate how representative the regression is of any relationship between latitude and the observed data.
 
 For each pair of regressions, describe what the plots are modeling and any trends present.
+  
+  ![northLatTempRegr](/WeatherPy/output_data/Fig5n.png)
 
 ## VacationPy
 
@@ -104,3 +135,11 @@ Use a gmaps function to create a marker layer with the hotel locations and info-
 Add the marker layer to the map figure and display it.
 
 Save a screenshot of the final map with heatmap and marker layers.
+  
+  ![hotelMapPopup](/VacationPy/screenshot.png)
+  
+  </details>
+  
+## Contact
+
+Galen Kellner: kellnergp@gmail.com
